@@ -1,0 +1,44 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cinematic Background -->
+  <rect width="800" height="600" fill="#001122" />
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#00CCFF; stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#001122; stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00CCFF; stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#001122; stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="400" cy="300" r="250" fill="url(#glow)" />
+
+  <!-- Bionic Stator (Dragonfly Pattern Overlay) -->
+  <path d="M400,100 L450,150 L400,200 L350,150 Z" fill="none" stroke="#00CCFF" stroke-width="1" opacity="0.5" />
+  <path d="M400,500 L450,450 L400,400 L350,450 Z" fill="none" stroke="#00CCFF" stroke-width="1" opacity="0.5" />
+
+  <!-- Main Turbine Core (Bionic Helical) -->
+  <g transform="translate(400, 300)">
+    <circle r="80" fill="url(#metal)" stroke="#FFFFFF" stroke-width="2" />
+    <path d="M-60,-60 Q0,-100 60,-60 Q100,0 60,60 Q0,100 -60,60 Q-100,0 -60,-60" fill="none" stroke="#00CCFF" stroke-width="3" />
+    <circle r="20" fill="#FFFFFF" />
+  </g>
+
+  <!-- High-Speed Energy Trails (VFX) -->
+  <ellipse cx="400" cy="300" rx="150" ry="40" fill="none" stroke="#00CCFF" stroke-width="2" opacity="0.6">
+    <animate attributeName="rx" values="150;160;150" dur="2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse cx="400" cy="300" rx="140" ry="30" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.4" />
+
+  <!-- Technical Overlay Data -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#00CCFF" font-weight="bold">SYSTEM_STATUS: OMNI_STABLE</text>
+  <text x="50" y="70" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">RPM: 120,000 [LOCKED]</text>
+  <text x="50" y="90" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">THERMAL_COOLING: sCO2_ACTIVE</text>
+
+  <!-- Mission Footer -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">PROJECT: BUILDING FOR LIFE</text>
+  <text x="400" y="575" font-family="Arial, sans-serif" font-size="10" fill="#00CCFF" text-anchor="middle" letter-spacing="1">UEI V15.0.0 "Omni-Sovereign" CINEMATIC RENDER // ALPHA GOLD TIMELINE</text>
+</svg>

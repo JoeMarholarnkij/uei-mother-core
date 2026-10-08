@@ -1,0 +1,84 @@
+<svg width="1024" height="768" viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <!-- DEEP SPACE BACKGROUND -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#002233;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000811;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#AABBC6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#667788;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#445566;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="768" fill="url(#bgGrad)" />
+
+  <!-- GRID OVERLAY -->
+  <g stroke="#004455" stroke-width="0.5" opacity="0.3">
+    <path d="M 0 64 H 1024 M 0 128 H 1024 M 0 192 H 1024 M 0 256 H 1024 M 0 320 H 1024 M 0 384 H 1024 M 0 448 H 1024 M 0 512 H 1024 M 0 576 H 1024 M 0 640 H 1024 M 0 704 H 1024" />
+    <path d="M 64 0 V 768 M 128 0 V 768 M 192 0 V 768 M 256 0 V 768 M 320 0 V 768 M 384 0 V 768 M 448 0 V 768 M 512 0 V 768 M 576 0 V 768 M 640 0 V 768 M 704 0 V 768 M 768 0 V 768 M 832 0 V 768 M 896 0 V 768 M 960 0 V 768" />
+  </g>
+
+  <!-- TURBINE CASE (CUTAWAY VIEW) -->
+  <circle cx="512" cy="384" r="320" fill="none" stroke="#00CCFF" stroke-width="2" stroke-dasharray="10,5" opacity="0.5" />
+  <circle cx="512" cy="384" r="300" fill="none" stroke="#006688" stroke-width="1" />
+
+  <!-- BIONIC HELICAL STATOR (DRAGONFLY WING STRUCTURE) -->
+  <g filter="url(#glow)">
+    <!-- Generating 12 helical blades -->
+    <path d="M 512 100 Q 600 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6">
+        <animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="4s" repeatCount="indefinite" />
+    </path>
+    <path d="M 512 100 Q 424 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(30 512 384)" />
+    <path d="M 512 100 Q 600 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(60 512 384)" />
+    <path d="M 512 100 Q 424 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(90 512 384)" />
+    <path d="M 512 100 Q 600 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(120 512 384)" />
+    <path d="M 512 100 Q 424 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(150 512 384)" />
+    <path d="M 512 100 Q 600 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(180 512 384)" />
+    <path d="M 512 100 Q 424 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(210 512 384)" />
+    <path d="M 512 100 Q 600 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(240 512 384)" />
+    <path d="M 512 100 Q 424 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(270 512 384)" />
+    <path d="M 512 100 Q 600 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(300 512 384)" />
+    <path d="M 512 100 Q 424 384 512 668" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" transform="rotate(330 512 384)" />
+  </g>
+
+  <!-- HIGH-SPEED IMPELLER (CENTRAL CORE) -->
+  <g id="impeller">
+    <circle cx="512" cy="384" r="100" fill="url(#metalGrad)" stroke="#AABBC6" stroke-width="2" />
+    <path d="M 512 284 L 540 384 L 512 484 L 484 384 Z" fill="#DDEEFF" opacity="0.8" />
+    <path d="M 512 284 L 540 384 L 512 484 L 484 384 Z" fill="#DDEEFF" opacity="0.8" transform="rotate(45 512 384)" />
+    <path d="M 512 284 L 540 384 L 512 484 L 484 384 Z" fill="#DDEEFF" opacity="0.8" transform="rotate(90 512 384)" />
+    <path d="M 512 284 L 540 384 L 512 484 L 484 384 Z" fill="#DDEEFF" opacity="0.8" transform="rotate(135 512 384)" />
+    <animateTransform attributeName="transform" type="rotate" from="0 512 384" to="360 512 384" dur="0.1s" repeatCount="indefinite" />
+  </g>
+
+  <!-- SUPERCRITICAL CO2 VAPOR (GLOWING CYAN FLOW) -->
+  <g filter="url(#glow)">
+    <circle cx="512" cy="384" r="220" fill="none" stroke="#00FFFF" stroke-width="40" opacity="0.1">
+        <animate attributeName="stroke-width" values="40;60;40" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- HUD INTERFACE -->
+  <rect x="50" y="50" width="300" height="150" rx="10" fill="rgba(0,50,100,0.4)" stroke="#00CCFF" stroke-width="1" />
+  <text x="70" y="85" font-family="Courier New, monospace" font-size="20" fill="#00CCFF" font-weight="bold">NV2 SOTA [PATENT A]</text>
+  <text x="70" y="115" font-family="Courier New, monospace" font-size="14" fill="#FFFFFF">ROTATION: 120,000 RPM</text>
+  <text x="70" y="135" font-family="Courier New, monospace" font-size="14" fill="#FFFFFF">EFFICIENCY: 94.2% (sCO2)</text>
+  <text x="70" y="155" font-family="Courier New, monospace" font-size="14" fill="#FFFFFF">MATERIAL: INCONEL 740H</text>
+  <text x="70" y="175" font-family="Courier New, monospace" font-size="14" fill="#00FF00">STATUS: RESONANCE 100%</text>
+
+  <!-- BOTTOM STATUS BAR -->
+  <rect x="0" y="728" width="1024" height="40" fill="rgba(0,100,200,0.2)" />
+  <text x="512" y="753" font-family="Arial, sans-serif" font-size="12" fill="#00CCFF" text-anchor="middle">UEI V15.0.0 "Omni-Sovereign" SOVEREIGN VISUAL ENGINE | ALPHA GOLD TIMELINE RESTORATION ACTIVE</text>
+
+  <!-- BORDER FRAME -->
+  <rect width="1024" height="768" fill="none" stroke="#00CCFF" stroke-width="10" opacity="0.3" />
+</svg>

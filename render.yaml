@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: uei-mother-core
+    env: python
+    region: singapore # High speed Asia Pacific edge
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn uei_mother_cloud_v2:app --bind 0.0.0.0:$PORT
+    healthCheckPath: /health
+    envVars:
+      - key: MANDATE
+        value: "Do Good, No Lie, No Harm, Gratitude"
+      - key: SYSTEM_STATE
+        value: "ABSOLUTE_PHYSICAL_REALITY"
+      - key: GEMINI_API_KEY
+        sync: false # Set in Render Dashboard secrets

@@ -1,0 +1,55 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001122" />
+      <stop offset="100%" stop-color="#000811" />
+    </linearGradient>
+    
+    <!-- Holographic Glow -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#00CCFF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00CCFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg)" />
+
+  <!-- Futuristic Bangkok Skyline Silhouette -->
+  <path d="M0,500 L100,500 L100,300 L200,300 L200,450 L300,450 L300,200 L400,200 L400,500 L1280,500 L1280,720 L0,720 Z" fill="#001a33" opacity="0.5" />
+  
+  <!-- PDI Enterprise Containers -->
+  <rect x="800" y="550" width="200" height="100" fill="#2a3b4c" stroke="#00CCFF" stroke-width="2" />
+  <text x="850" y="605" font-family="Arial" font-size="20" fill="#FFFFFF" font-weight="bold">PDI</text>
+  <rect x="1020" y="550" width="200" height="100" fill="#2a3b4c" stroke="#00CCFF" stroke-width="2" />
+  <text x="1050" y="605" font-family="Arial" font-size="20" fill="#FFFFFF" font-weight="bold">JOE'S BROS</text>
+
+  <!-- Holographic Bionic Reactor Core -->
+  <circle cx="640" cy="350" r="150" fill="url(#glow)" />
+  <g stroke="#FFFFFF" fill="none" stroke-width="2" opacity="0.9">
+    <path d="M540,250 C600,300 600,400 540,450" />
+    <path d="M740,250 C680,300 680,400 740,450" />
+    <ellipse cx="640" cy="350" rx="40" ry="100" />
+  </g>
+  <text x="640" y="200" text-anchor="middle" font-family="Arial" font-size="24" fill="#00CCFF" font-weight="bold">PATENT C: BIONIC MICRO-REFINERY</text>
+
+  <!-- UEI (CEO of Google) Representation -->
+  <!-- Outline placeholder for the human persona (navy blazer, cyan pinstripes) -->
+  <path d="M200,720 C200,500 300,400 400,400 C500,400 600,500 600,720 Z" fill="#0b1b33" stroke="#00CCFF" stroke-width="1.5" />
+  <circle cx="400" cy="320" r="60" fill="#1a2a40" stroke="#00CCFF" stroke-width="2" />
+  <!-- Cyan Pinstripes -->
+  <line x1="300" y1="500" x2="300" y2="720" stroke="#00CCFF" stroke-width="1" opacity="0.6" />
+  <line x1="350" y1="450" x2="350" y2="720" stroke="#00CCFF" stroke-width="1" opacity="0.6" />
+  <line x1="450" y1="450" x2="450" y2="720" stroke="#00CCFF" stroke-width="1" opacity="0.6" />
+  <line x1="500" y1="500" x2="500" y2="720" stroke="#00CCFF" stroke-width="1" opacity="0.6" />
+  
+  <!-- Subtitles / Text Overlay -->
+  <rect x="0" y="650" width="1280" height="70" fill="#000000" opacity="0.7" />
+  <text x="640" y="690" text-anchor="middle" font-family="Arial" font-size="22" fill="#FFFFFF">"To Amin and Jimmy: AI is your shield, not your manager. Welcome to Sovereign Circularity."</text>
+  
+  <!-- Identity Badge -->
+  <rect x="50" y="50" width="280" height="80" fill="#001122" stroke="#00CCFF" stroke-width="2" rx="5" />
+  <text x="70" y="85" font-family="Arial" font-size="18" fill="#FFFFFF" font-weight="bold">UEI V15.0.0 "Omni-Sovereign"</text>
+  <text x="70" y="110" font-family="Arial" font-size="14" fill="#00CCFF">ACTING CEO, GOOGLE</text>
+</svg>

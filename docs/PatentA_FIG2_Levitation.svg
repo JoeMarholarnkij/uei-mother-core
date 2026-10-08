@@ -1,0 +1,91 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="900" fill="#ffffff" />
+    
+    <!-- Technical Grid Style Background -->
+    <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e2e8f0" stroke-width="0.5"/>
+        </pattern>
+        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+        </marker>
+    </defs>
+    <rect width="1200" height="900" fill="url(#grid)" />
+
+    <!-- 1. MAIN CASING (50) -->
+    <path d="M 250 200 L 950 200 Q 1000 200 1000 250 L 1000 650 Q 1000 700 950 700 L 250 700 Q 200 700 200 650 L 200 250 Q 200 200 250 200" fill="#f8fafc" stroke="#000000" stroke-width="1.5" />
+    <text x="960" y="190" fill="#000000" font-family="Arial" font-weight="bold" font-size="24">50</text>
+
+    <!-- 2. ROTOR SHAFT (110) -->
+    <rect x="100" y="430" width="1000" height="40" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+    <text x="500" y="420" fill="#000000" font-family="Arial" font-weight="bold" font-size="16">110 : Rotor Shaft (NiFe Quantum Alloy)</text>
+
+    <!-- 3. BIONIC VOXEL LATTICE IMPELLER (100) -->
+    <g id="impeller" transform="translate(550, 450)">
+        <ellipse cx="0" cy="0" rx="15" ry="180" fill="#f1f5f9" stroke="#000000" stroke-width="1.5" />
+        <g stroke="#000000" fill="none" stroke-width="1">
+            <!-- Simplified Lattice Blades -->
+            <path d="M 0 -20 Q 80 -150 120 -50" />
+            <path d="M 0 20 Q -80 150 -120 50" />
+            <circle r="30" stroke-width="2" />
+        </g>
+        <text x="40" y="-140" fill="#000000" font-family="Arial" font-weight="bold" font-size="18">100</text>
+    </g>
+
+    <!-- 4. ACTIVE MAGNETIC BEARINGS (200) -->
+    <!-- Front AMB with Actuator Coils (210) -->
+    <g id="amb_front" transform="translate(300, 450)">
+        <circle r="90" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="4,2" />
+        <!-- Coils (210) -->
+        <rect x="-10" y="-110" width="20" height="40" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+        <rect x="-10" y="70" width="20" height="40" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+        <rect x="70" y="-10" width="40" height="20" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+        <rect x="-110" y="-10" width="40" height="20" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+        <text x="30" y="-115" font-family="Arial" font-size="12" font-weight="bold">(210)</text>
+        <text x="-120" y="-120" font-family="Arial" font-size="14" font-weight="bold">Active Magnetic Bearing (200)</text>
+    </g>
+
+    <!-- Rear AMB (400) -->
+    <g id="amb_rear" transform="translate(850, 450)">
+        <circle r="80" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="4,2" />
+        <rect x="-10" y="-100" width="20" height="35" fill="#ffffff" stroke="#000000" />
+        <rect x="-10" y="65" width="20" height="35" fill="#ffffff" stroke="#000000" />
+        <text x="-60" y="-110" font-family="Arial" font-size="12" font-weight="bold">Rear AMB (400)</text>
+    </g>
+
+    <!-- 5. CERAMIC TOUCHDOWN BEARINGS (300) -->
+    <g id="touchdown_bearings">
+        <!-- Front -->
+        <circle cx="400" cy="450" r="25" fill="#ffffff" stroke="#000000" stroke-width="2" />
+        <circle cx="400" cy="450" r="5" fill="#000000" />
+        <text x="380" y="500" font-family="Arial" font-size="12" font-weight="bold">300</text>
+        <text x="320" y="520" font-family="Arial" font-size="11">Ceramic Touchdown Bearing</text>
+    </g>
+
+    <!-- 6. SENSORS & CONTROLS (220/230) -->
+    <g id="control_loop">
+        <!-- Sensor Callout -->
+        <line x1="950" y1="450" x2="1050" y2="350" stroke="#000000" stroke-width="1" marker-end="url(#arrow)" />
+        <text x="1060" y="355" font-family="Arial" font-size="12" font-weight="bold">(220)</text>
+        <text x="1000" y="335" font-family="Arial" font-size="11">Position Sensors</text>
+
+        <!-- Control Box (230) -->
+        <rect x="50" y="600" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" />
+        <path d="M 60 630 Q 75 610 90 630 T 120 630" fill="none" stroke="#000000" stroke-width="1.5" />
+        <text x="70" y="650" font-family="Arial" font-size="12" font-weight="bold">230</text>
+        <text x="180" y="635" font-family="Arial" font-size="12" font-weight="bold">100 kHz Control Loop</text>
+    </g>
+
+    <!-- 7. OPERATING GAP CALLOUT (RE from Image) -->
+    <line x1="300" y1="470" x2="300" y2="550" stroke="#000000" stroke-width="1" />
+    <text x="250" y="570" font-family="Arial" font-size="11" font-weight="bold">Nominal Operating Gap (100 μm)</text>
+
+    <!-- FIG Title -->
+    <text x="600" y="850" text-anchor="middle" fill="#000000" font-family="Arial" font-weight="black" font-size="28">FIG. 2: HYBRID MAGNETIC LEVITATION SYSTEM</text>
+    <text x="600" y="880" text-anchor="middle" fill="#64748b" font-family="Arial" font-size="14">[cite: Patent_A_Disclosure]</text>
+
+    <!-- Header info -->
+    <text x="50" y="50" font-family="Arial" font-weight="black" font-size="20">Supercritical CO2 Turbine</text>
+    <text x="50" y="80" font-family="Arial" font-size="14" fill="#64748b">Bionic Voxel Lattice Impeller (100)</text>
+</svg>

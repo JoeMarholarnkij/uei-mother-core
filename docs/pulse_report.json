@@ -1,0 +1,13 @@
+{
+  "date": "2026-07-17",
+  "gasc_coordination_status": "ACTIVE",
+  "weather_distress": {
+    "vietnam": "Northern mountainous Lai Chau province declared emergency. Flash floods/landslides blocked National Highways 32, 279, 12. Warnings continue through July 19.",
+    "usa": "Texas Sutton County flash flood emergency persists. Minnesota Maroon hazardous air quality alert due to Boundary Waters wildfire smoke outbreak.",
+    "china_thailand_ai_lab": "Launched Joint Laboratory for Intelligent Prediction and Early Warning of Meteorological Disasters on July 17, using AI for weather forecasting.",
+    "thailand": "Moderate SW monsoon and low-pressure cell in upper Vietnam. Heavy rains and landslide warnings in Nan and Tak provinces. Andaman waves 2m."
+  },
+  "tpu_burst_active": true,
+  "compliance_status": "UNFCCC_CBAM_WIPO_NAGOYA_VERIFIED",
+  "last_sync_utc": "2026-07-17T16:14:21Z"
+}

@@ -1,0 +1,38 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#001122" />
+  
+  <!-- Grid Lines -->
+  <g stroke="#003344" stroke-width="0.5">
+    <path d="M 0 100 L 800 100 M 0 200 L 800 200 M 0 300 L 800 300 M 0 400 L 800 400 M 0 500 L 800 500" />
+    <path d="M 100 0 L 100 600 M 200 0 L 200 600 M 300 0 L 300 600 M 400 0 L 400 600 M 500 0 L 500 600 M 600 0 L 600 600 M 700 0 L 700 600" />
+  </g>
+
+  <!-- NV2 Turbine Housing -->
+  <rect x="250" y="150" width="300" height="300" rx="20" fill="none" stroke="#00CCFF" stroke-width="2" stroke-dasharray="10,5" />
+  
+  <!-- Bionic Helical Stator -->
+  <path d="M 400 150 Q 450 300 400 450 M 400 150 Q 350 300 400 450" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.8">
+    <animate attributeName="stroke-dashoffset" from="100" to="0" dur="2s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Rotating Impeller (Conceptual) -->
+  <circle cx="400" cy="300" r="80" fill="none" stroke="#00CCFF" stroke-width="4" stroke-dasharray="20,10">
+    <animateTransform attributeName="transform" type="rotate" from="0 400 300" to="360 400 300" dur="0.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Technical Data Overlay -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="18" fill="#00CCFF" font-weight="bold">NV2 BIONIC CORE [PATENT A]</text>
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">ROTATION: 120,000 RPM</text>
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">EFFICIENCY: 94.2% (SUPERCRITICAL)</text>
+  <text x="50" y="120" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">MATERIAL: INCONEL 740H</text>
+  
+  <!-- Status Indicator -->
+  <circle cx="750" cy="50" r="10" fill="#00FF00">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+  <text x="650" y="55" font-family="Arial, sans-serif" font-size="12" fill="#00FF00" text-anchor="end">PHYSICALLY VALIDATED</text>
+
+  <!-- Border Frame -->
+  <rect width="800" height="600" fill="none" stroke="#00CCFF" stroke-width="4" />
+</svg>

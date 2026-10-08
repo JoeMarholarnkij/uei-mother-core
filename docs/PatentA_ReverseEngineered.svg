@@ -1,0 +1,89 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background & Advanced Grid -->
+    <rect width="1200" height="900" fill="#020617" />
+    <defs>
+        <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+            <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#083344" stroke-width="0.5" stroke-opacity="0.2"/>
+        </pattern>
+        <linearGradient id="shaftGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#94a3b8" />
+            <stop offset="50%" style="stop-color:#f1f5f9" />
+            <stop offset="100%" style="stop-color:#475569" />
+        </linearGradient>
+        <radialGradient id="vortexGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:0.3" />
+            <stop offset="100%" style="stop-color:#020617;stop-opacity:0" />
+        </radialGradient>
+    </defs>
+    <rect width="1200" height="900" fill="url(#grid)" />
+
+    <!-- 1. Turbine Housing (50) - Cutaway Style -->
+    <path d="M 200 200 Q 600 120 1000 200 L 1000 700 Q 600 780 200 700 Z" fill="#0f172a" fill-opacity="0.7" stroke="#1e293b" stroke-width="3" />
+    <text x="1010" y="210" fill="#475569" font-family="Arial" font-weight="bold" font-size="20">50</text>
+
+    <!-- 2. Rotor Shaft (110) - NiFe Quantum Alloy -->
+    <rect x="150" y="420" width="900" height="60" rx="10" fill="url(#shaftGrad)" stroke="#22d3ee" stroke-width="1.5" />
+    <text x="160" y="410" fill="#22d3ee" font-family="Arial" font-weight="bold" font-size="14">110 : ROTOR SHAFT [NiFe Quantum Alloy]</text>
+
+    <!-- 3. Bionic Voxel Lattice Impeller (100) - Cutaway View -->
+    <g transform="translate(450, 450)">
+        <circle r="180" fill="url(#vortexGlow)" />
+        
+        <!-- Impeller Blades -->
+        <g stroke-linecap="round">
+            <!-- Rotating animation for UI feedback -->
+            <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="20s" repeatCount="indefinite" />
+            
+            <!-- Blade Structure -->
+            <path d="M 0 -30 L 0 -160" stroke="#f1f5f9" stroke-width="15" opacity="0.9" />
+            <path d="M 30 0 L 160 0" stroke="#f1f5f9" stroke-width="15" opacity="0.9" />
+            <path d="M 0 30 L 0 160" stroke="#f1f5f9" stroke-width="15" opacity="0.9" />
+            <path d="M -30 0 L -160 0" stroke="#f1f5f9" stroke-width="15" opacity="0.9" />
+            
+            <!-- Lattice Detailed Pattern (RE from Image 1) -->
+            <circle r="120" fill="none" stroke="#22d3ee" stroke-width="0.5" stroke-dasharray="2,2" />
+            <path d="M -80 -80 L 80 80 M 80 -80 L -80 80" stroke="#22d3ee" stroke-width="0.5" opacity="0.5" />
+        </g>
+        <text x="140" y="-140" fill="white" font-family="Arial" font-weight="bold" font-size="16">100</text>
+    </g>
+
+    <!-- 4. Active Magnetic Bearing (AMB) Set (200A/B & 300) -->
+    <!-- Front Set -->
+    <rect x="250" y="380" width="100" height="140" rx="5" fill="#1e293b" stroke="#22d3ee" stroke-width="2" opacity="0.8" />
+    <text x="250" y="370" fill="#22d3ee" font-family="Arial" font-weight="bold" font-size="12">200A (AMB)</text>
+    
+    <!-- Rear Set -->
+    <rect x="800" y="380" width="100" height="140" rx="5" fill="#1e293b" stroke="#22d3ee" stroke-width="2" opacity="0.8" />
+    <text x="800" y="370" fill="#22d3ee" font-family="Arial" font-weight="bold" font-size="12">200B (AMB)</text>
+    
+    <!-- Ceramic Touchdown Bearings (300/400) -->
+    <circle cx="360" cy="450" r="15" fill="#020617" stroke="#94a3b8" stroke-width="2" />
+    <text x="345" y="500" fill="#94a3b8" font-family="Arial" font-weight="bold" font-size="10">300 (CERAMIC)</text>
+
+    <!-- 5. Fluid Flow Paths (RE from Image 2) -->
+    <g font-family="Arial" font-size="14" font-weight="black">
+        <path d="M 50 350 L 220 350" stroke="#10b981" stroke-width="5" marker-end="url(#arrow)" />
+        <text x="50" y="335" fill="#10b981">sCO2 INLET [7.38 MPa]</text>
+        
+        <path d="M 1050 550 L 1150 550" stroke="#ef4444" stroke-width="5" />
+        <text x="950" y="580" fill="#ef4444">sCO2 OUTLET [BRYTON CYCLE]</text>
+    </g>
+
+    <!-- 6. Detailed Labels & Specs Panel -->
+    <rect x="50" y="650" width="450" height="200" rx="20" fill="#0f172a" fill-opacity="0.9" stroke="#22d3ee" stroke-width="1.5" />
+    <text x="70" y="690" fill="#22d3ee" font-family="Arial" font-weight="black" font-size="22">TECHNICAL SPECIFICATIONS</text>
+    <g font-family="Arial" font-size="14" fill="white">
+        <text x="70" y="725">● IMPELLER (100): Bionic Voxel Lattice (Inconel 718)</text>
+        <text x="70" y="750">● SHAFT (110): NiFe Quantum Alloy (Fe 3.5%)</text>
+        <text x="70" y="775">● AMB CONTROL: 100 kHz Predictive AI Loop</text>
+        <text x="70" y="800">● GAP STABILITY: 100 μm Nominal Clearance</text>
+        <text x="70" y="825">● PERFORMANCE: 47.82% Thermal Efficiency</text>
+    </g>
+
+    <!-- Title & Brand -->
+    <text x="600" y="80" text-anchor="middle" fill="white" font-family="Arial" font-weight="black" font-size="36" letter-spacing="8">PATENT A : sCO2 TURBINE</text>
+    <text x="600" y="115" text-anchor="middle" fill="#22d3ee" font-family="Arial" font-weight="bold" font-size="16">REVERSE-ENGINEERED HIGH-FIDELITY ARCHITECTURE</text>
+
+    <!-- Footer -->
+    <text x="1170" y="880" text-anchor="end" fill="#334155" font-family="Arial" font-style="italic" font-size="12">JOE'S BROTHER ENGINEERING LAB | UEI VISUAL LOBE V12.6</text>
+</svg>

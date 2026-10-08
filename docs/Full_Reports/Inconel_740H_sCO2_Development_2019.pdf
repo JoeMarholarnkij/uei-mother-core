@@ -1,0 +1,254 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns:i="http://www.mycore.org/i18n" class="no-js" lang="de">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Fehler 404 beim Abarbeiten</title>
+<link rel="stylesheet" href="https://duepublico2.uni-due.de/assets/font-awesome/css/all.min.css">
+<link href="https://duepublico2.uni-due.de/webjars/bootstrap-select/1.13.18/css/bootstrap-select.min.css" rel="stylesheet">
+<script src="https://duepublico2.uni-due.de/mir-layout/assets/jquery/jquery.min.js"></script><script src="https://duepublico2.uni-due.de/mir-layout/assets/jquery/plugins/jquery-migrate/jquery-migrate.min.js"></script>
+<link rel="stylesheet" href="https://duepublico2.uni-due.de/rsc/sass/mir-layout/scss/duepublico-flatly.min.css">
+<link rel="stylesheet" href="https://duepublico2.uni-due.de/css/duepublico.css">
+<script>var webApplicationBaseURL = 'https://duepublico2.uni-due.de/';var currentLang = 'de';</script><script>
+      window["mycoreUploadSettings"] = {
+      webAppBaseURL:"https://duepublico2.uni-due.de/"
+      }
+    </script><script src="https://duepublico2.uni-due.de/js/mir/session-polling.js"></script><script src="https://duepublico2.uni-due.de/js/mir/sherpa.js"></script><script src="https://duepublico2.uni-due.de/modules/webtools/upload/js/upload-api.js"></script><script src="https://duepublico2.uni-due.de/modules/webtools/upload/js/upload-gui.js"></script><script src="https://duepublico2.uni-due.de/js/mir/ror-search.min.js"></script>
+<link href="https://duepublico2.uni-due.de/modules/webtools/upload/css/upload-gui.css" type="text/css" rel="stylesheet">
+<link type="image/x-icon" href="https://duepublico2.uni-due.de/favicon.ico" rel="icon">
+<link title="Service-Description" href="https://duepublico2.uni-due.de//content/oer/oer-visitenkarte.json" type="application/ld+json" rel="meta">
+</head>
+<body class="">
+<header>
+<div class="head-bar">
+<div class="container">
+<div class="mir-prop-nav">
+<nav>
+<ul class="navbar-nav flex-row flex-wrap align-items-center">
+<li>
+<a title="Universit&auml;tsbibliothek Duisburg-Essen" data-toggle="tooltip" href="https://www.uni-due.de/ub/"><i class="fas fa-fw fa-info-circle"></i><span class="icon-label">Universit&auml;tsbibliothek</span></a>
+</li>
+<li>
+<a title="Open Access: F&ouml;rderung und Informationen" data-toggle="tooltip" href="https://www.uni-due.de/ub/publikationsdienste/openaccess.php"><i class="fas fa-fw fa-info-circle"></i><span class="icon-label">Open Access</span></a>
+</li>
+<li>
+<a title="Ansprechpartner und Infos f&uuml;r Autoren" data-toggle="tooltip" href="/content/brand/contact.xml"><i class="fas fa-fw fa-info-circle"></i><span class="icon-label">Kontakt</span></a>
+</li>
+<li class="nav-item dropdown ml-auto mir-lang">
+<a title="Sprache wechseln" data-toggle="dropdown" class="nav-link dropdown-toggle" href="#"><i class="flag flag-de"></i><span class="current-language">de</span><span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu language-menu">
+<li>
+<a title="English" class="dropdown-item" href="https://duepublico2.uni-due.de/servlets/MCRFileNodeServlet/duepublico_derivate_00070645/2019-sCO2.eu-113.pdf?lang=en"><i class="flag flag-en"></i>en</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="site-header">
+<div class="container">
+<div class="row">
+<div class="col-12 col-sm-6 col-md-auto">
+<a class="containsimage" id="udeLogo" href="https://www.uni-due.de/de/index.php"><span>Universit&auml;t Duisburg-Essen</span><img height="414" width="1052" alt="Logo Duisburg-Essen" src="https://duepublico2.uni-due.de/images/UDE-logo-claim.svg"></a>
+</div>
+<div class="col-12 col-sm-6 col-md-auto">
+<div id="orgaunitTitle">
+<a href="https://duepublico2.uni-due.de/">
+<h1>
+<span class="text-nowrap">DuEPublico 2</span>
+</h1>
+<h2>
+<span class="text-nowrap">Duisburg-Essen</span>
+<!--breaking point--><span class="text-nowrap">Publications online</span>
+</h2>
+</a>
+</div>
+</div>
+<div class="col-12 col-md">
+<form role="search" class="searchfield_box form-inline my-2 my-lg-0" action="https://duepublico2.uni-due.de/servlets/solr/find">
+<div class="input-group mb-3">
+<input aria-label="Search" placeholder="Suche" name="condQuery" type="search" class="form-control mr-sm-2 search-query" id="searchInput">
+<div class="input-group-append">
+<button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="mir-main-nav bg-primary">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<button aria-label="Toggle navigation" aria-expanded="false" aria-controls="mir-main-nav-collapse-box" data-target="#mir-main-nav-collapse-box" data-toggle="collapse" type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse mir-main-nav__entries" id="mir-main-nav-collapse-box">
+<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+<li>
+<a href="https://www.uni-due.de/ub/" class="nav-link">UB</a>
+</li>
+<li class="nav-item dropdown">
+<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle" id="NB002D">E-Publikationen</a>
+<ul aria-labelledby="NB002D" role="menu" class="dropdown-menu">
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/epub/publish.xml">Ihren Volltext ver&ouml;ffentlichen</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/epub/search.xed">E-Publikationen suchen</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/epub/serials.xml">Reihen und Zeitschriften</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle" id="NB0052">Dissertationen</a>
+<ul aria-labelledby="NB0052" role="menu" class="dropdown-menu">
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/diss/publish.xml">Ihre Dissertation ver&ouml;ffentlichen</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/diss/search.xed">Dissertationen suchen</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/diss/thesis-by-faculty.xml">Dissertationen nach Fakult&auml;t/Institut</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/diss/thesis-by-sdnb.xml">Dissertationen nach Sachgruppen</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle" id="NB007F">OER</a>
+<ul aria-labelledby="NB007F" role="menu" class="dropdown-menu">
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/oer/publish.xml">OER ver&ouml;ffentlichen</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/oer/search.xed">OERs suchen</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle" id="NB009B">&Uuml;ber DuEPublico</a>
+<ul aria-labelledby="NB009B" role="menu" class="dropdown-menu">
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/publish/guidelines.xml">Leitlinien</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/publish/contract.xml">Vertragsbedingungen</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/content/about/statistics.xml">Zugriffsstatistik</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/servlets/OAIDataProvider?verb=Identify">OAI-PMH Schnittstelle</a>
+</li>
+</ul>
+</li>
+<li id="basket-list-item" class="dropdown">
+<a title="Auf ihrer Merkliste befinden sich keine Dokumente." href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="fas fa-bookmark"></i><sup>0</sup></a>
+<ul role="menu" class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="https://duepublico2.uni-due.de/servlets/MCRBasketServlet?type=objects&amp;action=show">Merkliste öffnen</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="navbar-nav">
+<li class="nav-item">
+<a href="https://duepublico2.uni-due.de/authorization/login.xed?url=https%3A%2F%2Fduepublico2.uni-due.de%2Fservlets%2FMCRFileNodeServlet%2Fduepublico_derivate_00070645%2F2019-sCO2.eu-113.pdf" class="nav-link" id="loginURL">Anmelden</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+<noscript>
+<div style="border-radius: 0;" class="mir-no-script alert alert-warning text-center">Um den vollen Funktionsumfang dieser Webseite zu erfahren, benötigen Sie JavaScript. Hier finden Sie die&nbsp;
+              <a target="_blank" href="http://www.enable-javascript.com/de/">Anleitung wie Sie JavaScript in Ihrem Browser einschalten</a>
+</div>
+</noscript>
+</header>
+<section>
+<div id="page" class="container">
+<div id="main_content">
+<div class="jumbotron text-center">
+<h1>404!</h1>
+<h2>Das ist ein Fehler.</h2>
+<p class="lead">Die gewünschte URL <i>"/servlets/MCRFileNodeServlet/duepublico_derivate_00070645/2019-sCO2.eu-113.pdf"</i> wurde auf diesem Server nicht gefunden.</p>
+<div role="alert" class="alert alert-info" title="Detaillierte Fehlernachricht">duepublico_derivate_00070645:/ -&gt; 2019-sCO2.eu-113.pdf: file does not exist</div>
+<p>
+<strong>Mehr wissen wir auch nicht.</strong>
+</p>
+</div>
+</div>
+</div>
+</section>
+<footer class="flatmir-footer">
+<div class="footer-menu">
+<div class="container">
+<div class="row">
+<div id="footerLogo" class="col">
+<a class="containsimage" href="https://www.uni-due.de/de/index.php"><img height="414" width="1052" alt="" class="mb-5" src="https://duepublico2.uni-due.de/images/UDE-logo-claim-dark.svg"></a>
+</div>
+<div class="col col-md-auto justify-content-end">
+<nav class="navbar" id="navigationFooter">
+<ul>
+<li>
+<a class="footer-menu__entry" href="https://www.uni-due.de/infoline/"><i class="fas fa-fw fa-phone"></i>Infoline</a>
+</li>
+<li>
+<a class="footer-menu__entry" href="https://www.uni-due.de/de/hilfe_im_notfall.php"><i class="fas fa-fw fa-exclamation-triangle"></i>Hilfe im Notfall</a>
+</li>
+<li>
+<a class="footer-menu__entry" href="/content/brand/impressum.xml"><i class="fas fa-comments"></i>Impressum</a>
+</li>
+<li>
+<a class="footer-menu__entry" href="/content/brand/datenschutz.xml"><i class="fas fa-user-shield"></i>Datenschutz</a>
+</li>
+<li>
+<a class="footer-menu__entry" href="/content/brand/accessibility.xml"><i class="fas fa-universal-access"></i>Barrierefreiheit</a>
+</li>
+</ul>
+</nav>
+<div class="navbar" id="footerCopyright">
+<ul class="nav">
+<li>&copy; UB DuE</li>
+<li>
+<a class="footer-menu__entry" href="/content/brand/contact.xml"><i class="fas fa-fw fa-info-circle"></i>Kontakt</a>
+</li>
+<li>
+<a class="footer-menu__entry" href="mailto:duepublico.ub@uni-due.de"><i class="fas fa-fw fa-envelope"></i> duepublico.ub@uni-due.de</a>
+</li>
+</ul>
+<a href="https://www.mycore.de"><img alt="powered by MyCoRe" title="MyCoRe 2023.06.5-SNAPSHOT 2023.06.x:v2023.06.4-25-g21161cc" src="https://duepublico2.uni-due.de/mir-layout/images/mycore_logo_small_invert.png"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script>
+          
+          if (jQuery.fn.button){jQuery.fn.btn = jQuery.fn.button.noConflict();}
+        </script><script src="https://duepublico2.uni-due.de/assets/bootstrap/js/bootstrap.bundle.min.js"></script><script src="https://duepublico2.uni-due.de/assets/jquery/plugins/jquery-confirm/jquery.confirm.min.js"></script><script src="https://duepublico2.uni-due.de/js/mir/base.js"></script><script>
+          $( document ).ready(function() {
+            $('.overtext').tooltip();
+            $.confirm.options = {
+              title: "Bitte bestätigen",
+              confirmButton: "Ja",
+              cancelButton: "Nein",
+              post: false,
+              confirmButtonClass: "btn-danger",
+              cancelButtonClass: "btn-secondary",
+              dialogClass: "modal-dialog modal-lg" // Bootstrap classes for large modal
+            }
+          });
+        </script><script src="https://duepublico2.uni-due.de/assets/jquery/plugins/jquery-placeholder/jquery.placeholder.min.js"></script><script>
+          jQuery("input[placeholder]").placeholder();
+          jQuery("textarea[placeholder]").placeholder();
+        </script>
+</body>
+</html>

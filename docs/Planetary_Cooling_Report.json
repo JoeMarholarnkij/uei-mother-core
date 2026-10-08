@@ -1,0 +1,79 @@
+[
+    {
+        "year": 2026,
+        "temp_anomaly": 1.4,
+        "co2_ppm": 410.0,
+        "albedo": 0.3,
+        "cooling_achieved": 0.1
+    },
+    {
+        "year": 2027,
+        "temp_anomaly": 1.25,
+        "co2_ppm": 395.0,
+        "albedo": 0.3,
+        "cooling_achieved": 0.15
+    },
+    {
+        "year": 2028,
+        "temp_anomaly": 0.825,
+        "co2_ppm": 375.0,
+        "albedo": 0.305,
+        "cooling_achieved": 0.425
+    },
+    {
+        "year": 2029,
+        "temp_anomaly": 0.35,
+        "co2_ppm": 350.0,
+        "albedo": 0.31,
+        "cooling_achieved": 0.475
+    },
+    {
+        "year": 2030,
+        "temp_anomaly": -0.175,
+        "co2_ppm": 320.0,
+        "albedo": 0.315,
+        "cooling_achieved": 0.525
+    },
+    {
+        "year": 2031,
+        "temp_anomaly": -0.75,
+        "co2_ppm": 285.0,
+        "albedo": 0.32,
+        "cooling_achieved": 0.575
+    },
+    {
+        "year": 2032,
+        "temp_anomaly": -1.375,
+        "co2_ppm": 245.0,
+        "albedo": 0.325,
+        "cooling_achieved": 0.625
+    },
+    {
+        "year": 2033,
+        "temp_anomaly": -2.05,
+        "co2_ppm": 200.0,
+        "albedo": 0.33,
+        "cooling_achieved": 0.675
+    },
+    {
+        "year": 2034,
+        "temp_anomaly": -2.775,
+        "co2_ppm": 150.0,
+        "albedo": 0.335,
+        "cooling_achieved": 0.725
+    },
+    {
+        "year": 2035,
+        "temp_anomaly": -3.55,
+        "co2_ppm": 95.0,
+        "albedo": 0.34,
+        "cooling_achieved": 0.775
+    },
+    {
+        "year": 2036,
+        "temp_anomaly": -4.375,
+        "co2_ppm": 35.0,
+        "albedo": 0.345,
+        "cooling_achieved": 0.825
+    }
+]
